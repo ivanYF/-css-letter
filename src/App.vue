@@ -50,7 +50,7 @@ export default {
         .e{
             width: 60px;
             height: 100px;
-            border-width: 15px 0 15px 15px;
+            border-width: 15px 0 15px 17px;
             border-style: solid;
             border-color: #000;
             position: relative;
