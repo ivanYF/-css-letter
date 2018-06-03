@@ -78,6 +78,105 @@ export default {
         margin: 20px;
         overflow: hidden;
         border: 1px solid #999;
+        .o{
+            position:relative;
+            top:30px;
+            left:45px;
+            width:70px;
+            height:100px;
+            border-width:14px 16px 14px 16px;
+            border-color:#000000;
+            border-style:solid;
+            border-radius:55% /52%;
+        }
+        .n{
+            position: relative;
+            top:30px;
+            left:50px;
+            width:65px;
+            height:125px;
+            border-width:0 15px 0 15px;
+            border-color:#000;
+            border-style:solid;
+            &:after{
+                transform:skew(30deg,0);
+                position:absolute;
+                content:'';
+                top:0;
+                left:25px;
+                width:16px;
+                height:125px;
+                background-color:#000;   
+            }
+        }
+        .m{
+            position: relative;
+            top:20px;
+            left:40px;
+            width:80px;
+            height:125px;
+            border-width:0 15px 0 15px;
+            border-color:#000;
+            border-style:solid;
+            &:after{
+                transform:skew(20deg,0);
+                position:absolute;
+                content:'';
+                top:0;
+                left:14px;
+                width:12px;
+                height:110px;
+                background-color:#000;
+            }
+            &:before{
+                transform:skew(-20deg,0);
+                position:absolute;
+                content:'';
+                top:0;
+                right:14px;
+                width:12px;
+                height:110px;
+                background-color:#000;
+            }
+        }
+        .l{
+            width: 60px;
+            height: 100px;
+            position: relative;
+            border-width: 0 0 15px 15px;
+            border-style: solid;
+            border-color: #000;
+            left: 60px;
+            top:35px;
+        }
+        .k{
+            width: 0px;
+            height: 125px;
+            position: relative;
+            border-left: 15px solid #000;
+            left: 60px;
+            top:30px;
+            &:after{
+                width: 15px;
+                height: 70px;
+                content: '';
+                position: absolute;
+                background: #000;
+                left: 10px;
+                top:0;
+                transform: rotate(45deg);
+            }
+            &:before{
+                width: 15px;
+                height: 80px;
+                content: '';
+                position: absolute;
+                background: #000;
+                left: 18px;
+                top:40px;
+                transform: rotate(-45deg);
+            }
+        }
         .j{
             width: 50px;
             height: 80px;
