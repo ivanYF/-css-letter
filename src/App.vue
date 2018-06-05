@@ -69,10 +69,15 @@
         <div class="font" data-id="W">
             <div class="w"></div>
         </div>
-        <div class="font" data-id="">
-            <div class=""></div>
+        <div class="font" data-id="X">
+            <div class="x"></div>
         </div>
-        
+        <div class="font" data-id="Y">
+            <div class="y"></div>
+        </div>
+        <div class="font" data-id="Z">
+            <div class="z"></div>
+        </div>
     </div>
 </template>
 
@@ -99,6 +104,125 @@ export default {
         margin: 20px;
         overflow: hidden;
         border: 1px solid #999;
+        .z{
+            width: 90px;
+            height: 90px;
+            border-width: 15px 0 15px 0;
+            border-style: solid;
+            border-color: #000;
+            position: relative;
+            left: 50px;
+            top:40px;
+            &:after{
+                transform:skew(-38deg,0);
+                position:absolute;
+                content:'';                
+                left:36px;
+                bottom: 0px;
+                height:90px;
+                border-left:solid 18px #000;
+            }
+        }
+        .y{
+            position: relative;
+            left: 80px;
+            top: 85px;
+            width: 15px;
+            height: 80px;
+            background: #000;
+            &:after{
+                transform:skew(24deg,0);
+                position:absolute;
+                content:'';
+                top:-60px;
+                left:-15px;
+                height:65px;
+                border-left:solid 15px #000;
+            }
+            &:before{
+                transform:skew(-24deg,0);
+                position:absolute;
+                content:'';
+                top:-60px;
+                left:15px;
+                height:65px;
+                border-left:solid 15px #000;
+            }
+        }
+        .x{
+            position: relative;
+            left: 90px;
+            top: 30px;
+            &:after{
+                transform:skew(28deg,0);
+                position:absolute;
+                content:'';
+                top:0;
+                left:0;
+                height:125px;
+                border-left:solid 15px #000;
+            }
+            &:before{
+                transform:skew(-28deg,0);
+                position:absolute;
+                content:'';
+                top:0;
+                left:0;
+                height:125px;
+                border-left:solid 15px #000;
+            }
+
+        }
+        .w{
+            position: relative;
+            left: 40px;
+            top:40px;
+            &:after{
+                transform:skew(14deg,0);
+                position:absolute;
+                content:'';
+                top:0;
+                left:0;
+                height:110px;
+                width: 50px;
+                border-left:solid 15px #000;
+                border-right:solid 15px #000;
+            }
+            &:before{
+                transform:skew(-14deg,0);
+                position:absolute;
+                content:'';
+                top:0;
+                left: 35px;
+                height: 110px;
+                width: 50px;
+                border-left:solid 15px #000;
+                border-right:solid 15px #000;
+            }
+        }
+        .v{
+            position: relative;
+            left: 70px;
+            top:30px;
+            &:after{
+                transform:skew(18deg,0);
+                position:absolute;
+                content:'';
+                top:0;
+                left:0;
+                height:125px;
+                border-left:solid 15px #000;
+            }
+            &:before{
+                transform:skew(-18deg,0);
+                position:absolute;
+                content:'';
+                top:0;
+                left:40px;
+                height:125px;
+                border-left:solid 15px #000;
+            }
+        }
         .u{
             position:relative;
             top: 35px;
