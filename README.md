@@ -25,5 +25,9 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 ![Image 效果图](https://github.com/ivanYF/css-letter/blob/master/src/assets/1.png)
 
+![Image 效果图](https://github.com/ivanYF/css-letter/blob/master/src/assets/2.png)
+
+![Image 效果图](https://github.com/ivanYF/css-letter/blob/master/src/assets/3.png)
+
 
 
