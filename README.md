@@ -42,11 +42,8 @@ $ cnpm install
 ```
 
 # 查看demo
-$ npm run dev
-```
-
 ```bash
-# 访问地址
+$ npm run dev
 $ http://localhost:8080/views/index/index.html
 ```
 
