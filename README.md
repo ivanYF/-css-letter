@@ -1,18 +1,3 @@
-# 
-
-> 按照以下步骤可以查看效果
-
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-```
-
 # 用一个 dom 节点 加上 伪类 绘制 英文字母
 
 > 按照以下步骤可以查看效果
