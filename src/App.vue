@@ -622,13 +622,13 @@ export default {
             top:50px;
             left: 60px;
             width: 0;
-            height: 95px;
+            height: 105px;
             border-left: 15px solid #000;
             &:after{
                 content: '';
                 position: absolute;
-                width: 50px;
-                height: 65px;
+                width: 60px;
+                height: 75px;
                 border-width: 15px 10px 15px 0;
                 border-color: #000;
                 border-style: solid;

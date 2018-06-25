@@ -1,4 +1,4 @@
-# 用一个 dom 节点 加上 伪类 绘制 英文字母
+# 
 
 > 按照以下步骤可以查看效果
 
@@ -11,15 +11,44 @@ npm install
 # serve with hot reload at localhost:8080
 npm run dev
 
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+# 用一个 dom 节点 加上 伪类 绘制 英文字母
 
+> 按照以下步骤可以查看效果
+
+
+## 介绍
+
+- 利用一个dom节点加上它的伪元素，使用css一些特性绘制出【A-Z】字母，兴趣的可以自己试一试，锻炼自己的css想象力
+
+## 将项目克隆到本地
+
+```bash
+# 定位到任意目录
+$ cd path/to/root
+
+# 克隆仓库到指定的文件夹
+$ git clone https://github.com/ivanYF/css-letter.git [project-name] --depth 1
+
+# 进入指定的文件夹
+$ cd [project-name]
+```
+
+## 安装项目`CNPM`依赖
+
+```bash
+$ cnpm install
+```
+
+# 查看demo
+$ npm run dev
+```
+
+```bash
+# 访问地址
+$ http://localhost:8080/views/index/index.html
+```
 
 > 效果 展示 用一个 dom 节点 加上 伪类 绘制 英文字母
 
